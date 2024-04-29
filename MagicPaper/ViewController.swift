@@ -47,8 +47,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         // Pause the view's session
         sceneView.session.pause()
     }
-    
-    
     // MARK: - SceneView Delegate Methods
     
     
@@ -58,33 +56,20 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         if let imageAnchor = anchor as? ARImageAnchor {
         
-            
-        let videoNode = SKVideoNode(fileNamed: "\(imageAnchor.referenceImage.name!).mp4")
-            
-
-            
+            let videoNode = SKVideoNode(fileNamed: "\(imageAnchor.referenceImage.name!).mp4")
             videoNode.play()
             
             let videoScene = SKScene(size: CGSize(width: 720, height: 300))
-            
             videoNode.position = CGPoint(x: videoScene.size.width / 2, y: videoScene.size.height / 2)
-            
             videoNode.yScale = -1.0
-            
             videoScene.addChild(videoNode)
             
-            print()
-            
             let plane = SCNPlane(width: imageAnchor.referenceImage.physicalSize.width , height: imageAnchor.referenceImage.physicalSize.height)
-            
             plane.firstMaterial?.diffuse.contents = videoScene
-            
+
             let planeNode = SCNNode(geometry: plane)
-            
             planeNode.eulerAngles.x  = -.pi / 2
-            
             node.addChildNode(planeNode)
-            
         }
         return node
     }
