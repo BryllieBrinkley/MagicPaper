@@ -1,0 +1,20 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "border.arreferenceimage"
+    },
+    {
+      "filename" : "mikegill.arreferenceimage"
+    },
+    {
+      "filename" : "mudslide.arreferenceimage"
+    },
+    {
+      "filename" : "shark.arreferenceimage"
+    }
+  ]
+}

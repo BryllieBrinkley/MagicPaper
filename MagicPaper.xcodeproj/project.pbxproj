@@ -13,6 +13,10 @@
 		4653C9D32BDEB4D2000D85AA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4653C9D22BDEB4D2000D85AA /* Base */; };
 		4653C9D52BDEB4D4000D85AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4653C9D42BDEB4D4000D85AA /* Assets.xcassets */; };
 		4653C9D82BDEB4D4000D85AA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4653C9D72BDEB4D4000D85AA /* Base */; };
+		4653C9DF2BDEB627000D85AA /* mudslide.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4653C9DE2BDEB627000D85AA /* mudslide.mp4 */; };
+		4653C9E12BDEB64C000D85AA /* mikegill.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4653C9E02BDEB64C000D85AA /* mikegill.mp4 */; };
+		4653C9E32BDEB65C000D85AA /* shark.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4653C9E22BDEB65C000D85AA /* shark.mp4 */; };
+		4653C9E52BDEB666000D85AA /* border.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4653C9E42BDEB666000D85AA /* border.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		4653C9D22BDEB4D2000D85AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4653C9D42BDEB4D4000D85AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4653C9D72BDEB4D4000D85AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4653C9DE2BDEB627000D85AA /* mudslide.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mudslide.mp4; sourceTree = "<group>"; };
+		4653C9E02BDEB64C000D85AA /* mikegill.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mikegill.mp4; sourceTree = "<group>"; };
+		4653C9E22BDEB65C000D85AA /* shark.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = shark.mp4; sourceTree = "<group>"; };
+		4653C9E42BDEB666000D85AA /* border.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = border.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,10 @@
 		4653C9CA2BDEB4D2000D85AA /* MagicPaper */ = {
 			isa = PBXGroup;
 			children = (
+				4653C9DE2BDEB627000D85AA /* mudslide.mp4 */,
+				4653C9E42BDEB666000D85AA /* border.mp4 */,
+				4653C9E02BDEB64C000D85AA /* mikegill.mp4 */,
+				4653C9E22BDEB65C000D85AA /* shark.mp4 */,
 				4653C9CB2BDEB4D2000D85AA /* AppDelegate.swift */,
 				4653C9CD2BDEB4D2000D85AA /* art.scnassets */,
 				4653C9CF2BDEB4D2000D85AA /* ViewController.swift */,
@@ -123,10 +135,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4653C9DF2BDEB627000D85AA /* mudslide.mp4 in Resources */,
 				4653C9CE2BDEB4D2000D85AA /* art.scnassets in Resources */,
 				4653C9D52BDEB4D4000D85AA /* Assets.xcassets in Resources */,
+				4653C9E12BDEB64C000D85AA /* mikegill.mp4 in Resources */,
 				4653C9D32BDEB4D2000D85AA /* Base in Resources */,
+				4653C9E32BDEB65C000D85AA /* shark.mp4 in Resources */,
 				4653C9D82BDEB4D4000D85AA /* Base in Resources */,
+				4653C9E52BDEB666000D85AA /* border.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
