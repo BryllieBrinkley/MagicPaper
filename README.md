@@ -17,7 +17,6 @@ Clone the repository to your local machine.
 Open the project file in Xcode and click the "play" button in the Xcode toolbar (or you can use the keyboard shortcut Command-R.)
 The project should be built and run successfully (only on a physical device)
 
-* NOTE: The images I took from my physical newspaper are located inside the 'Assets' folder. To view the functionality of this app,
-you hover over those images displayed your computer screen while this app is running.
+* NOTE: The images I took from my physical newspaper are located inside the 'Assets' folder. To view the functionality of this app, you can save these images and hover over them individually while the app is running.
 
 Enjoy! - Jibryll Brinkley
