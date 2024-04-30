@@ -1,4 +1,4 @@
-## MagicPaper
+## MagicPaper iOS App
 
 MagicPaper is a prototype app I created that uses ARKit2 and livens up newspapers by playing video content relevant to the image that gets detected.
 (Only works on the images and newspaper I used to create it for now, but I plan to incorporate functionality that will detect any image on any newspaper.)
