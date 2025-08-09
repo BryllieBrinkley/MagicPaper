@@ -23,3 +23,19 @@ you hover over those images displayed your computer screen while this app is run
 
 Enjoy! - Jibryll Brinkley
 
+---
+
+## New: Scan Any Newspaper Photo
+
+In addition to tracking the built-in reference images, the app now includes a "Scan" feature:
+
+- Tap the "Scan" button while viewing a newspaper page.
+- The app will detect a rectangular photo region, OCR nearby text to form a search query, and fetch a related online video.
+- The video is then overlaid directly on top of the detected photo in AR.
+- If no rectangle is found or the search fails, a fallback sample video will be placed in front of you.
+
+Notes:
+- Requires an active internet connection for fetching related videos.
+- Uses on-device OCR (Vision) and a public, no-key video API. If the API is unavailable, the app falls back to a sample video.
+- Best results with clear, well-lit photos and headlines.
+
